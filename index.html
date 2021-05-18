@@ -14,10 +14,10 @@
 <div class="main mb-5">
     <div>
         <div class="firstScreen">
-            <div class="top nav"><a href="#">BIO</a></div>
-            <div class="right nav"><a href="#">PROGECT</a></div>
-            <div class="left nav"><a href="#">EVENT</a></div>
-            <div class="botom nav"><a href="#">LOCATION</a></div>
+            <div class="top nav"><a name = 'bio'>BIO</a></div>
+            <div class="right nav"><a name = 'project'>PROGECT</a></div>
+            <div class="left nav"><a name="event">EVENT</a></div>
+            <div class="botom nav"><a name="location">LOCATION</a></div>
             <div class="yaro_menu_btn mobile">
                 <span></span>
                 <span></span>
@@ -26,10 +26,10 @@
             </header>
             <div class="menu mobile ">
                 <nav>
-                    <li><a href="# "> BIO</a></li>
-                    <li><a href="# ">PROGECT</a></li>
-                    <li><a href=" #">EVENT</a></li>
-                    <li><a href=" #">LOCATION</a></li>
+                    <li><a name="bio"> BIO</a></li>
+                    <li><a name="project">PROGECT</a></li>
+                    <li><a name="event">EVENT</a></li>
+                    <li><a name="location">LOCATION</a></li>
                 </nav>
             </div>
             <div class="center">
@@ -37,18 +37,22 @@
                         id="logo" src="./assets/victoriaArtLogo.png" alt=""></span>
                 <h1 class="mainScreen__title  mb-5"> Выставка Виктории Бахерт</h1>
                 <h2 class="mainScreen__subtitle ">Открой новые горизонты</h2>
-                <p> с 22 мая в 14.00 в <a href="https://lermontovka-spb.ru/calendar/11825 ">Библиотеке национальных
+                <p> 22 мая в 14.00 в <a href="https://lermontovka-spb.ru/calendar/11825 ">Библиотеке национальных
                     литератур </a>
-                    <strong>(Садовая ул. д. 33) </strong> <br>
+                    <strong>Садовая ул. д. 33 </strong> <br>
                 </p>
             </div>
+
+        </div>
+        <div class="container">
 
         </div>
         <section class="bio">
             <div class="container paddind element-animation">
                 <h2> Отккрытие художественной выставки члена Союза художников России Виктории Бахерт «К берегам
                     Антарктиды и Арктики»</h2>
-                Виктория Бахерт родилась в 1976 г.<br>
+                <h3 id="bio">[BIO]</h3>
+               Виктория Бахерт родилась в 1976 г.<br>
                 в пос. Буркандья Магаданской обл.<br>
                 В 2000 г. окончила РГПУ им. А.И. Герцена,<br>
                 факультет изобразительного искусства<br>
@@ -81,7 +85,7 @@
 
             <!--    если вы устали от изоляции и мечтаете о глотке свежего арткичекого воздуха приходите!  -->
 
-            <div class="element-animation">
+            <div class="element-animation flex" >
                 <div class="card">
                     <img class="portret" src="./assets/vikaBahert.jpg" alt=""> Я люблю путешествовать. <br>
                     Мир открывается по-новому. Избавляясь от всего лишнего, я чувствую себя ближе к творчеству внутри
@@ -99,10 +103,11 @@
                             data-title="обо мне"> подробнее</span></a>
                 </div>
             </div>
+                      <br><br><br>
     </div>
     <br><br><br>
     </section>
-
+    <h3 id="event">[EVENT]</h3>
     <section class="gallery__big align-center">
         <h2>Картины</h2>
         <div class="gallery padding">
@@ -135,24 +140,34 @@
         <a class="roll-link transition" href="gallery.html"> <span data-title="обо мне">  еще картины </span></a>
     </section>
 
+    <section>
+        <h3 id="project">[PROJECT]</h3>
+        <p>VICTORIA ARTISTS</p>
+
+        <p>Это мое детище. Удалось организовать группу художников-передвижников. Мы путешествуем пишем, мы считаем, что творчество которое мы продвигаем делает жизни людей лучше.
+        Искусство должно победить жлобство и мы ему помогаем. Знаете, в детсве я училась боксу, это и свормировало мой боевой харрактер.</p>
+    </section>
+
     <section class="contact element-animation">
         <div class="adress">
             <h2>Как добраться</h2>
             <ul>
-                <li> Адресс</li>
-                <li>карта</li>
-                <li> Как работаем</li>
-                <li>Расисание самой выставки</li>
-                <li>телефон вконтакте фейсбук все что есть</li>
+                <li>Адрес: Садовая ул., д. 33 <br>
+                    </li>
+                <li>карта<br>
+                    <li><div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a href="https://yandex.ru/maps/2/saint-petersburg/house/sadovaya_ulitsa_33/Z0kYdQVgQUUOQFtjfXVzeX5qZw==/?ll=30.320809%2C59.928294&utm_medium=mapframe&utm_source=maps&z=16.47" style="color:#eee;font-size:12px;position:absolute;top:14px;">Садовая улица, 33 — Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCU46VRa8D" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div></li>
+                <li>                     Время работы:<br>
+                    Пн-Пт: 09.00-20.00<br>
+                    Сб: 10.00-18.00 Вс: выходной <br></li>
+
         </div>
         <div class="contacts">
             <h2>контакты</h2>
             <ul>
-                <li> 8911 271 93 47</li>
-                <li>в контакте</li>
+                <li><a  href="tel: +7 911 271 93 47">8 911 271 93 47</a> </li>
+                <li><a href="https://vk.com/id334822843">в контакте</a></li>
             </ul>
-            </ul>
-        </div>
+            </div>
     </section>
 </div>
 </div>
