@@ -13,29 +13,32 @@
     </style>
 </head>
 <body>
-
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light container">
-        <a class="navbar-brand" href="#">VA</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light center">
+<!--        <a class="navbar-brand" href="#">VA</a>-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse align-center" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">BIO</a>
-                <a class="nav-item nav-link" href="#">PROJECT</a>
-                <a class="nav-item nav-link " href="#">EVENT</a>
-                <a class="nav-item nav-link " href="#">LOCATION</a>
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="index.html#bio">BIO</a>
+                <a class="nav-item nav-link" href="index.html#project">PROJECT</a>
+                <a class="nav-item nav-link " href="index.html#event">EVENT</a>
+                <a class="nav-item nav-link " href="index.html#location">LOCATION</a>
             </div>
         </div>
     </nav>
 </header>
 
 <div class="container">   <div class="title align-center  ">
-    <label>Размер текста (<output class="pixels">14</output>px)
-    <input class="size-setting" type="range" min="8" max="48" step="1" value="14">
-  </label>
+    <div class="textSixeChanher">
+        <label>Размер текста (<output class="pixels">14</output>px)
+            <input class="size-setting" type="range" min="8" max="48" step="1" value="14">
+        </label>
+    </div>
+
 </div></div>
 <div class="container longread">
 <div class="sep"></div>
@@ -74,13 +77,20 @@
 
  <H2> Руслан Бахтияров</H2>
 <p> <i>Кандидат искусствоведения, специалист по координации научной работы Русского музея, член Союза художников России </i> </p></p>
-
+<a href="articles.html">Смотрите статью самого художника</a>
 
 <div class="footer align-center">
     &copy <a href="http://phdstd.ru/">PHD STD </a>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 <script src="./js/fontSize.js"></script>
 </body>
 </html>
