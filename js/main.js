@@ -9,7 +9,7 @@ function onEntry(entry) {
 }
 
 let options = {
-    threshold: [0.5]
+    threshold: [0.2]
 };
 let observer = new IntersectionObserver(onEntry, options);
 let elements = document.querySelectorAll('.element-animation');
@@ -47,3 +47,18 @@ menuBtn.addEventListener('click', function () {
     menuBtn.classList.toggle('active');
     menu.classList.toggle('active');
 })
+
+let upButton = document.querySelector('.up-button');
+
+window.onscroll = function () {
+  if (window.pageYOffset > 200) {
+    upButton.classList.add('shown');
+  } else {
+    upButton.classList.remove('shown');
+  }
+
+};
+
+upButton.onclick = function () {
+  window.scrollTo(0, 0);
+};
