@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="css/style.css">
     <script src='js/jq.js'></script>
     <script src="js/custon.js"></script>
-    <script>if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode)) {
-        window.location.href = "indexIE.html";
-    }</script>
+    <script>
+        if (/*@cc_on!@*/(!!document.documentMode && !!window.MSInputMethodContext)) {
+            window.location.href = "indexIE.html";
+        }
+    </script>
 </head>
 <body>
 <div class="main">
@@ -46,9 +48,9 @@
                 <span class="logo"><marquee> ... высоко должен ценить свое искусство такой выдающийся художник,
                     ибо оно божественно и истинно и никакая плата не будет за него слишком высока. Альбрехт Дюрер. </marquee><img
                         id="logo" src="./assets/victoriaArtLogo.png" alt=""></span>
-                <h1 class="mainScreen__title">Открой себя на <span class="move"> ----> </span></h1>
-                <h2 class="mainScreen__subtitle "> открытии выставки Виктории Бахерт</h2>
-                <h3> 22 мая в 14.00 в <a href="#location">Библиотеке национальных литератур </a><br>
+                <h1 class="mainScreen__title">Начни  путешествие на <span class="move"> ----> </span></h1>
+                <h2 class="mainScreen__subtitle ">  выставке Виктории Бахерт</h2>
+                <h3> 22 мая — 20 июня <a href="#location">Библиотека национальных литератур </a><br>
                     <strong> Садовая ул. д. 33 </strong></h3>
             </div>
         </div>
